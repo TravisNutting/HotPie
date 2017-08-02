@@ -1,0 +1,15 @@
+//- layout.jade
+doctype html
+html
+  div
+    - console.log("testtest")
+  div
+  head
+    title= "Hot Pie - " + title
+    link(rel='stylesheet', href='/stylesheets/#{stylesheet}.css')
+  body
+
+    #header
+      h1= title
+
+    block content
