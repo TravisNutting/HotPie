@@ -1,0 +1,1 @@
+.\node_modules\.bin\mocha.cmd .\test\_helper.js .\test\apps\authentication-test.coffee
